@@ -1,5 +1,9 @@
 package pl.sternik.kk.rest.jaxrs;
 
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Article {
 
     long id;
@@ -23,4 +27,4 @@ public class Article {
 
 
 }
-}
+
